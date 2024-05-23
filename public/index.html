@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram API Integration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .content {
+            margin: 20px;
+        }
+        .media {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .media-item {
+            margin: 10px;
+        }
+        .media-item img, .media-item video {
+            max-width: 300px;
+            max-height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Instagram API Integration</h1>
+        <button id="fetchProfile">Fetch Profile</button>
+        <button id="fetchMedia">Fetch Media</button>
+        <div id="profile"></div>
+        <div id="media" class="media"></div>
+        <div id="post-details"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
